@@ -45,4 +45,9 @@ button {
   transform: translate(-50%, -50%);
   outline: none;
   border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover, button:active {
+  box-shadow: 0 5px 40px hsl(150, 100%, 66%);
 }
