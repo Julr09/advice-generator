@@ -1,0 +1,13 @@
+.container {
+  border-radius: 15px;
+  background-color: hsl(217, 19%, 24%);
+  padding: 0 1.5rem;
+  position: relative;
+  width: 90%;
+}
+
+@media (min-width: 500px) {
+  .container {
+    max-width: 500px;
+  }
+}

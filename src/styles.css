@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~sanitize.css";
+@import "~sanitize.css/assets.css";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+body {
+  background-color: hsl(218, 23%, 16%);
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 1rem;
+  color: hsl(150, 100%, 66%);
+  margin: 2rem 0 1rem;
+}
+
+picture {
+  display: inline-block;
+  margin: 1.5rem 0 3rem;
+}
+
+q {
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+  display: inline-block;
+}
+
+button {
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
+  position: absolute;
+  bottom: -3.4rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  outline: none;
+  border: none;
+}
